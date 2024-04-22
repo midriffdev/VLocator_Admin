@@ -7,12 +7,12 @@ const AuthRoutes = {
     children: [
         {
             name: 'Landing Page',
-            path: '/',
+            path: '/home',
             component: () => import('@/views/pages/landingpage/index.vue')
         },
         {
             name: 'Side Login',
-            path: '/auth/login',
+            path: '/',
             component: () => import('@/views/authentication/SideLogin.vue')
         },
         {
@@ -32,7 +32,7 @@ const AuthRoutes = {
         },
         {
             name: 'Side Forgot Password',
-            path: '/auth/forgot-password',
+            path: '/forgot-password',
             component: () => import('@/views/authentication/SideForgotPassword.vue')
         },
         {

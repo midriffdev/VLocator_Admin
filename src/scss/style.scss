@@ -40,3 +40,34 @@
 @import './pages/apps';
 
 @import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
+
+
+.logoStyleHeader {
+    max-width: 200px;
+    max-height: 68px;
+    margin: 0 auto;
+    display: block;
+}
+.login-page_img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 96px);
+}
+.login-page_img img {
+    width: auto;
+    height: 100%;
+}
+.authentication::before{
+    background: #000;
+    opacity: 1;
+}
+.widthSizeRegister {
+    width: 80%;
+}
+.scrollSignUp {
+    max-height: calc(100vh - 0px);
+    overflow-y: auto;
+    background-color: #000;
+}

@@ -25,7 +25,7 @@ function validate(values: any, { setErrors }: any) {
 </script>
 
 <template>
-    <v-row class="d-flex mb-3">
+    <!-- <v-row class="d-flex mb-3">
         <v-col cols="6" sm="6" >
             <v-btn variant="outlined" size="large" class="border text-subtitle-1" block>
                 <img :src="google" height="16" class="mr-2" alt="google" />
@@ -38,12 +38,12 @@ function validate(values: any, { setErrors }: any) {
                 <span class="d-sm-flex d-none mr-1">Sign in with</span>FB
             </v-btn>
         </v-col>
-    </v-row>
-    <div class="d-flex align-center text-center mb-6">
+    </v-row> -->
+    <!-- <div class="d-flex align-center text-center mb-6">
         <div class="text-h6 w-100 px-5 font-weight-regular auth-divider position-relative">
             <span class="bg-surface px-5 py-3 position-relative">or sign in with</span>
         </div>  
-    </div>
+    </div> -->
     <Form @submit="validate" v-slot="{ errors, isSubmitting }" class="mt-5">
         <v-label class="text-subtitle-1 font-weight-semibold pb-2 text-lightText">Username</v-label>
         <VTextField
@@ -67,7 +67,7 @@ function validate(values: any, { setErrors }: any) {
                 <template v-slot:label class="">Remeber this Device</template>
             </v-checkbox>
             <div class="ml-sm-auto">
-                <RouterLink to="" class="text-primary text-decoration-none text-body-1 opacity-1 font-weight-medium"
+                <RouterLink to="/forgot-password" class="text-primary text-decoration-none text-body-1 opacity-1 font-weight-medium"
                     >Forgot Password ?</RouterLink
                 >
             </div>
