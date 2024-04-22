@@ -19,6 +19,7 @@ import LoginForm from '@/components/auth/LoginForm.vue';
                         alt="login-background" />
                 </div>
             </v-col>
+            
             <v-col cols="12" lg="5" xl="4" class="d-flex align-center scrollSignUp justify-center">
                 <div class="mt-xl-0 mt-5 widthSizeRegister">
                     <h2 class="text-h3 font-weight-bold mb-2">Welcome to <span class="text-primary">V-Locator</span></h2>
