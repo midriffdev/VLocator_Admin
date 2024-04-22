@@ -37,6 +37,7 @@ const i18n = createI18n({
     silentFallbackWarn: true
 });
 
+
 const app = createApp(App);
 fakeBackend();
 app.use(router);
